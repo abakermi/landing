@@ -11677,7 +11677,7 @@ header {
   list-style: none;
 }
 
-.property .item-s ul li {
+.property .item-s ul li, .property .item-s ul a {
   color: #8A1538;
 }
 
