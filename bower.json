@@ -1,0 +1,21 @@
+{
+  "name": "nebras-brother",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Abdelhak Akermi <abdelhak.akermi@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.3.4",
+    "bulma": "^0.9.1"
+  }
+}

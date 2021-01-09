@@ -1,0 +1,51 @@
+{
+
+    "socials":{
+        "facebook":"https://facebook.com",
+          "instagram":"https://instagram.com",
+          "youtube":"https://youtube.com"
+          
+    },
+    "sections":{
+        "story":{
+            "title":"our story",
+            "description":"It is a 56-year-old story of the determined work of a father who knew the tradition of craftsmanship in 1964 and added this secret to his manufacturing line and the curious brothers who followed him came out to grow this business. In this journey; Combining with design trends and renewal desired by establishing Yılka Yilmaz brothers now since 1969, Turkey and the blossoming of a new brand in the world furniture market."
+        },
+        "projects":{
+            "title":"projects",
+            "description":"Carrying its experience in hotel, restaurant and luxury living spaces, Yılka wants to be a brand that makes a sound in the target market with its projects and furniture."
+        },
+        "banner":{
+            "title":"fairs",
+            "description":"The brand ambassador of Turkey in the world furniture market furniture in order to be; we improve ourselves frequently.",
+            "btn":"detailed review",
+            "img":"banner.jpg"
+        },
+        "instagram":{
+            "title":"instagram",
+             "user":"@cris"
+        }
+    },
+    "products":[
+        {
+            "img":"product-1.jpg",
+            "title":"bedrooom",
+            "description":"With its modern style, bedrooms display a stylish stance in living spaces, adding a noble and impressive atmosphere to the spaces they are located in!"
+        },
+        {
+            "img":"product-2.jpg",
+            "title":"dinning rooms",
+            "description":"Bring the rhythm of geometric patterns with elegant details to your living spaces with Yılka!"
+        },
+        {
+            "img":"product-3.jpg",
+            "title":"sofa set",
+            "description":"Bring the Yılka breeze to your home! While keeping comfort in the foreground in living spaces, it does not compromise on its stylish appearance"
+        },
+        {
+            "img":"product-4.jpg",
+            "title":"wall units",
+            "description":"It exhibits a stylish stance in living spaces with its modern line."
+        }
+    ]
+}
