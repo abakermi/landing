@@ -96,8 +96,14 @@ data.imgs.forEach(function(item){
 ImageHtml+="</div></div>"
 
 data.sub.forEach(function(item){
-  console.log(item.split(":"))
+if(item.startsWith('رابط الموقع') || item.startsWith('Location Link')){
+  var x=item.split(":")
+  var href=`${x[1]}:${x[2]}`
+  sub+="<li><a href='"+href+"'>"+item+"</a></li>"
+}else{
   sub+="<li>"+item+"</li>"
+}
+
 
 })
 

@@ -11851,6 +11851,16 @@ header {
   .navbar-menu .navbar-start {
     display: flex;
   }
+  .col-slider {
+    max-height: 250px;
+  }
+  .col-slider img {
+    max-height: 250px;
+  }
+  .owl-dots {
+    position: absolute;
+    bottom: 0;
+  }
   .container {
     width: 80%;
   }

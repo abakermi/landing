@@ -11660,6 +11660,14 @@ header {
   font-weight: 600;
 }
 
+.bottom {
+  background-color: #8A1538;
+}
+
+.bottom p {
+  color: #fff;
+}
+
 .property .item-s {
   align-items: center;
   margin-bottom: 120px;
@@ -11669,7 +11677,7 @@ header {
   list-style: none;
 }
 
-.property .item-s ul li {
+.property .item-s ul li, .property .item-s ul a {
   color: #8A1538;
 }
 

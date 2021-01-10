@@ -251,6 +251,18 @@ header{
             display: flex;
         }
     }
+    .col-slider{
+        max-height: 250px;
+        img{
+            max-height: 250px;
+        }
+   
+        }
+        .owl-dots{
+            position: absolute;
+            bottom: 0;
+        }
+    
     .container {
         width: 80%;
     }
