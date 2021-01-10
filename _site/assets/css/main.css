@@ -11871,4 +11871,10 @@ header {
   .property .item-s .col-slider {
     min-height: unset;
   }
+  .footer-end .column {
+    text-align: center;
+  }
+  section.bottom .column {
+    text-align: center;
+  }
 }
