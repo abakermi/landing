@@ -1,8 +1,8 @@
 window.dataEng = {
-  banner: { title: "Real estate auction of the Supreme Judicial Council" },
+  banner: { title: " Real Estate Auction by the Administration of Enforcement of the Supreme Judiciary Council " },
   majles: {
     title:
-      "The real estate auction of the Supreme Judicial Council will take place on Sunday, January 17th from 12 noon / 7 pm on the court auctions application <br>To communicate<br> 0097433456897",
+      "The  Real Estate Auction by the Administration of Enforcement of the Supreme Judiciary Council  will take place on Sunday<br> January 17th from <br>9:30 AM - 12:00 PM<br> on the court auctions application <br>To communicate<br> +97431191999",
   },
   items: [
     {
@@ -60,22 +60,12 @@ window.dataEng = {
         "Opening Price: 5,000,000 QAR",
         "Property type: Vacant land",
         "Location: Leabaib",
-        "Location Link: https://goo.gl/maps/P1wyUnpTjxCWbvbRA",
+        "Location Link: https://goo.gl/maps/pzKMfhCaXFNNf5Eh9",
         "Land area in meters: 900 sq m",
         "Land area in feet: 9,688 sq ft",
         ],
         imgs: [
-            "_site/assets/img/categ/46783/1.jpg",
-            "_site/assets/img/categ/46783/2.jpg",
-            "_site/assets/img/categ/46783/3.jpg",
-            "_site/assets/img/categ/46783/4.jpg",
-            "_site/assets/img/categ/46783/5.jpg",
-            "_site/assets/img/categ/46783/6.jpg",
-            "_site/assets/img/categ/46783/7.jpg",
-            "_site/assets/img/categ/46783/8.jpg",
-            "_site/assets/img/categ/46783/9.jpg",
-            "_site/assets/img/categ/46783/10.jpg",
-            "_site/assets/img/categ/46783/11.jpg",
+            "_site/assets/img/categ/46783/1.jpg"
 
         ],
       },
@@ -218,7 +208,7 @@ window.dataEng = {
         sub: [
        "Property No: 89170",
        "Opening Price: 10,608,840 QAR",
-       "Property Type: Villa and External Room",
+       "Property Type: Land + Ground level and External Rooms",
        "Location: Jeryan Jenaihat",
        "Location Link: https://goo.gl/maps/L85qRUHiWCDafbrbA",
        "Land area in meters: 2,240 sq m",

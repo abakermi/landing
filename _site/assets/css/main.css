@@ -11660,6 +11660,14 @@ header {
   font-weight: 600;
 }
 
+.bottom {
+  background-color: #8A1538;
+}
+
+.bottom p {
+  color: #fff;
+}
+
 .property .item-s {
   align-items: center;
   margin-bottom: 120px;
@@ -11669,7 +11677,7 @@ header {
   list-style: none;
 }
 
-.property .item-s ul li {
+.property .item-s ul li, .property .item-s ul a {
   color: #8A1538;
 }
 
@@ -11843,6 +11851,16 @@ header {
   .navbar-menu .navbar-start {
     display: flex;
   }
+  .col-slider {
+    max-height: 250px;
+  }
+  .col-slider img {
+    max-height: 250px;
+  }
+  .owl-dots {
+    position: absolute;
+    bottom: 0;
+  }
   .container {
     width: 80%;
   }
@@ -11852,5 +11870,11 @@ header {
   }
   .property .item-s .col-slider {
     min-height: unset;
+  }
+  .footer-end .column {
+    text-align: center;
+  }
+  section.bottom .column {
+    text-align: center;
   }
 }

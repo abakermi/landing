@@ -67,9 +67,7 @@ function setData() {
 
 
 function fillProperty(data,buttons,index){
-if(index%2===0){
-  console.log(index)
-}
+
 
 var content=`   <div class="columns item-s">
 `
@@ -96,16 +94,33 @@ data.imgs.forEach(function(item){
 ImageHtml+="</div></div>"
 
 data.sub.forEach(function(item){
-  console.log(item.split(":"))
+if(item.startsWith('رابط الموقع') || item.startsWith('Location Link')){
+  var x=item.split(":")
+  var href=`${x[1]}:${x[2]}`
+  sub+="<li><a href='"+href+"'>"+item+"</a></li>"
+}else{
   sub+="<li>"+item+"</li>"
+}
+
 
 })
 
 
 if(index%2===0){
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    content+=ImageHtml
   content+=sub+"<ul>"
   content+=buttonHtml+"</div>"
-  content+=ImageHtml+"</div>"
+  content+="</div>"
+   }
+   else{
+    content+=sub+"<ul>"
+    content+=buttonHtml+"</div>"
+    content+=ImageHtml+"</div>"
+   }
+  // content+=sub+"<ul>"
+  // content+=buttonHtml+"</div>"
+  // content+=ImageHtml+"</div>"
 }else{
   content+=ImageHtml
   content+=sub+"<ul>"
@@ -144,6 +159,7 @@ function setArabeLang() {
  * 
  */
 function setEnglishLang() {
+  console.log("englishhhhhhhhh",window.dataEng.majles.title)
   document.body.classList.toggle('en')
   $('.top-banner p').text(window.dataEng.banner.title)
   $('.introd p').html(window.dataEng.majles.title)
